@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amitesh Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #310583;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: #071952;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(66, 89, 194);
+        font-size: 1.04rem;
+      }
+      .left {
+        font-family: "Edu SA Beginner", cursive;
+        font-size: 1.9rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 80px 0;
+      }
+      .firstsection > .rightsection {
+        width: 30%;
+        position:relative;
+
+      }
+      .leftsection {
+        /* background-color: red; */
+        font-size: 3rem;
+        /* text-align:justify;
+           
+            width: 50%;
+            
+
+      }
+      .rightsection{
+        
+        /* background-color: red;      } */
+      }
+      body > main > section.firstsection > div.rightsection > div.yellowCircle{
+        position: relative;
+        width: 
+        75%;
+        height: 85%;
+        background-color: rgb(135, 252, 18);
+        z-index: 1;
+        border-radius: 120%;
+
+
+      }
+      body > main > section.firstsection > div.rightsection > div.whiteCircle{
+        position: relative;
+        width: 
+        85%;
+        height: 100%;
+        background-color: rgb(227, 238, 215);
+        z-index: 0;
+        border-radius: 120%;
+        bottom: 700px;
+        right: 10px;
+      }
+      .rightsection img {
+        position: relative;
+        width: 60%;
+        z-index: 2;
+        bottom:343px;
+        left:30px;
+        margin: 0px;
+        border-radius:20px;
+      }
+      .yellow {
+        color: yellow;
+      }
+      #element {
+        color: yellow;
+      }
+      main hr {
+        background-color: rgb(203, 196, 214);
+
+        border: 0px;
+        height: 1px;
+        margin: 40px 50px;
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+      }
+      .workExperience {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+        /* background-color: red; */
+      }
+      .workExperience h1 {
+        font-size: 1.9rem;
+        font-family: "Poppins", sans-serif;
+      }
+      .text-grey {
+        color: grey;
+      }
+      .workExperience .box {
+        display: flex;
+        background-color: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        justify-content: space-around;
+      }
+      .workExperience .vertical {
+        width: 1px;
+        height: 10vh;
+        background-color: white;
+        
+      }
+      .vertical img{
+        width: 23px;
+        position: relative;
+        top: -25px;
+        right: 10px;
+      }
+      .vertical .vertical-title{
+        position: relative;
+        top:40px;
+        right:19px;
+        width:180px;
+        font-size: 13px;
+        justify-content: center;
+      }
+      .vertical .vertical-content{
+        position: relative;
+        top:50px;
+        right: 20px;
+        width:150px;
+        font-size: 9px;
+        color: grey;
+        padding: 5px;
+        /* border:1px solid rgb(81, 48, 202); */
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Amitesh's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/.">Home</a></li>
+            <li><a href="/.">About</a></li>
+            <li><a href="/.">Services</a></li>
+            <li><a href="/.">Projects</a></li>
+            <li><a href="/.">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, I am <span class="yellow">Amitesh Thakur </span>
+          <div>and I am a Passionate</div>
+          <!-- <div>Java Developer</div> -->
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <div class="yellowCircle"></div>
+         
+          <img src="./Picture 1.png" alt="image" />
+          <div class="whiteCircle"></div>
+        </div>
+      </section>
+      <hr />
+      <section class="workExperience">
+        <span class="text-grey">What I have done so far.</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img src="./htmllogo1.jpeg" alt="html logo" class="first-image" />
+            <div class="vertical-title">Front-End Developer
+            <div class="year">(2017-2019)</div></div>
+            <div class="vertical-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              repellat sunt nulla quos nam molestiae similique facere iste
+              asperiores totam dolorem unde, voluptates quisquam?
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="./javalogo.jpg" alt="html logo" class="first-image" />
+            <div class="vertical-title">Java Developer
+            <div class="year">(2019-2021)</div></div>
+            <div class="vertical-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              repellat sunt nulla quos nam molestiae similique facere iste
+              asperiores totam dolorem unde, voluptates quisquam?
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="./171-1718046_javascript-programming-language-logo-hd-png-download.png" alt="html logo" class="first-image" />
+            <div class="vertical-title">React Native Developer
+            <div class="year">(2020-2021)</div></div>
+            <div class="vertical-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              repellat sunt nulla quos nam molestiae similique facere iste
+              asperiores totam dolorem unde, voluptates quisquam?
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="./clogo.jpg" alt="html logo" class="first-image" />
+            <div class="vertical-title">
+              C Developer
+              <div class="year">(2021-2022)</div></div>
+            <div class="vertical-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              repellat sunt nulla quos nam molestiae similique facere iste
+              asperiores totam dolorem unde, voluptates quisquam?
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="./htmllogo1.jpeg" alt="html logo" class="first-image" />
+            <div class="vertical-title">Full Stack Developer
+            <div class="year">(2022- current)</div></div>
+            <div class="vertical-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              repellat sunt nulla quos nam molestiae similique facere iste
+              asperiores totam dolorem unde, voluptates quisquam?
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "<i>Web Developer",
+          "<i>Java Developer",
+          "<i>MERN Stack Developer",
+          "<i>Content Creator.",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
